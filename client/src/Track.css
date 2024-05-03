@@ -1,0 +1,89 @@
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.account-address {
+    font-weight: bold;
+    color: #333;
+}
+
+.home-btn {
+    background-color: #dc3545;
+    color: white;
+    border: none;
+}
+
+.table-container {
+    overflow-x: auto;
+}
+
+.table {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.table-header {
+    background-color: #007bff;
+    color: #fff;
+}
+
+.tracking-form h5 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.form-inline {
+    display: flex;
+    gap: 10px;
+}
+
+.form-control {
+    flex-grow: 1;
+}
+
+.btn-success {
+    color: #fff;
+    background-color: #28a745;
+    border-color: #28a745;
+}
+
+
+
+.timeline {
+    position: relative;
+    padding: 0;
+    list-style: none;
+}
+
+.timeline-item {
+    position: relative;
+    margin-bottom: 20px;
+    padding-left: 40px;
+}
+
+.timeline-item::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: -20px;
+    width: 20px;
+    background: linear-gradient(to bottom, #007bff 0%, #007bff 40%, #fff 40%, #fff 100%);
+}
+
+.timeline-item:last-child::before {
+    background: linear-gradient(to bottom, #007bff 0%, #007bff 100%);
+}

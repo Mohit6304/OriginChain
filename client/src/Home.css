@@ -1,0 +1,31 @@
+/* Home.css */
+html{
+    scroll-behavior: smooth;
+}
+.home-container {
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    font-family: Arial, sans-serif;
+}
+
+h3, h5 {
+    color: #333;
+}
+
+.note {
+    font-size: 0.9rem;
+    color: #666;
+    margin-bottom: 10px;
+}
+
+.btn {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+hr {
+    border-top: 1px solid #ddd;
+}
