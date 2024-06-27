@@ -84,7 +84,7 @@ function Supply() {
             }
         }
         catch (err) {
-            alert("An error occured!!!" + err)
+            alert("An error occured!!!(Make sure that your account is registerd to continue and the item id is correct.)" + err)
         }
     }
     const handlerSubmitManufacturing = async (event) => {
@@ -96,7 +96,7 @@ function Supply() {
             }
         }
         catch (err) {
-            alert("An error occured!!!"+ err)
+            alert("An error occured!!!(Make sure that your account is registerd to continue and the item id is correct.)"+ err)
         }
     }
     const handlerSubmitDistribute = async (event) => {
@@ -108,7 +108,7 @@ function Supply() {
             }
         }
         catch (err) {
-            alert("An error occured!!!"+ err)
+            alert("An error occured!!!(Make sure that your account is registerd to continue and the item id is correct.)"+ err)
         }
     }
     const handlerSubmitRetail = async (event) => {
@@ -120,7 +120,7 @@ function Supply() {
             }
         }
         catch (err) {
-            alert("An error occured!!! "+ err)
+            alert("An error occured!!!(Make sure that your account is registerd to continue and the item id is correct.)"+ err)
         }
     }
     const handlerSubmitSold = async (event) => {
@@ -132,7 +132,7 @@ function Supply() {
             }
         }
         catch (err) {
-            alert("An error occured!!! "+ err)
+            alert("An error occured!!! (Make sure that your account is registerd to continue and the item id is correct.)"+ err)
         }
     }
     return (

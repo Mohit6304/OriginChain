@@ -86,7 +86,7 @@ function AddProducts() {
             }
         }
         catch (err) {
-            alert("An error occured!!!")
+            alert("An error occured!!!(Make sure you have entered the correct values and are an Owner)")
         }
     }
     return (
