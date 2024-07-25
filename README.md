@@ -44,12 +44,12 @@ The smart contract is written with Solidity which is then compiled, migrated, an
 
 ## Supply Chain Flow
 
-![Supply Chain Flow](client\src\assets\slide3.png)
-
+![Supply Chain Flow]
+![alt text](client/src/assets/slide3.png)
 ## Smart Contract Working Flow
 
-![Smart Contract Working Flow](client\public\Supply Chain Design.png)
-
+![Smart Contract Working Flow]
+![alt text](<client/public/Supply Chain Design.png>)
 This is a SupplyChain smart contract written in Solidity. The contract models the various roles and stages involved in the supply chain of a pharmaceutical product.
 
 - The contract owner is the person who deploys the contract and is the only one who can authorize various roles like retailer, manufacturer, etc.
