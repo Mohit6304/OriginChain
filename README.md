@@ -1,9 +1,9 @@
-# Supply-Chain-Dapp
+# Origin Chain
 
 <p align="center">
   <a><img src="https://www.mdpi.com/logistics/logistics-03-00005/article_deploy/html/images/logistics-03-00005-g001.png" width="200"></a>
   <br>  
-  Supply-Chain-Dapp
+  Origin Chain
   <br>
 </p>
 
@@ -26,39 +26,49 @@
   </a>
 </p>
 
-<h4 align="center">A simple Supply Chain setup with <a href="https://docs.soliditylang.org/en/v0.8.4/" target="_blank">Solidity</a>.</h4>
+<h4 align="center">A Supply Chain Management System for Agricultural Products with <a href="https://docs.soliditylang.org/en/v0.8.4/" target="_blank">Solidity</a>.</h4>
 
 <p align="center">
-  <a >
+  <a>
     <img src="https://img.shields.io/badge/dependencies-up%20to%20date-brightgreen.svg">
   </a>
 </p>
 
 ## Description
 
-Supply chain is always hard to manage and requires a lot of administrative machinery. However, when managed with smart contracts using blockchain, a lot of the paperwork is reduced. This leads to an increase in transparency and helps to build an efficient Root of Trust. Supply-chain-dapp is such an implementation of a supply chain management system which uses blockchain to ensure a transparent and secure transfer of products from the manufacturer to the customer via the online e-commerce websites.
+Origin Chain is a blockchain-based supply chain management system designed specifically for agricultural products, though it is adaptable to other types of supply chains. This system leverages smart contracts to ensure a transparent and secure transfer of products from the raw material supplier to the end customer. The use of blockchain technology reduces administrative overhead, increases transparency, and builds an efficient root of trust among all parties involved.
 
 ## Architecture
 
-The smart contract is written with Solidity which is then compiled, migrated, and deployed using Truffle.js on the Gode Testnet blockchain network. The frontend uses Web3.js to communicate with the smart contract and Gode Testnet blockchain network, and MetaMask Wallet is connected to Gode Test Network to perform transactions between each component in the supply chain.
+The smart contract is written in Solidity and is compiled, migrated, and deployed using Truffle.js on the Gode Testnet blockchain network. The frontend uses Web3.js to interact with the smart contract and the Gode Testnet blockchain network. MetaMask Wallet is used to perform transactions between each component in the supply chain.
 
 ## Supply Chain Flow
 
-![Supply Chain Flow]
-![alt text](client/src/assets/slide3.png)
+![Supply Chain Flow](client/src/assets/slide3.png)
+
 ## Smart Contract Working Flow
 
-![Smart Contract Working Flow]
-![alt text](<client/public/Supply Chain Design.png>)
-This is a SupplyChain smart contract written in Solidity. The contract models the various roles and stages involved in the supply chain of a pharmaceutical product.
+![Smart Contract Working Flow](client/public/Supply%20Chain%20Design.png)
 
-- The contract owner is the person who deploys the contract and is the only one who can authorize various roles like retailer, manufacturer, etc.
-- There are several roles involved in the supply chain of the pharmaceutical product. These include the raw material supplier, manufacturer, distributor, and retailer.
-- The smart contract stores information about the medicine, such as its name, description, and current stage in the supply chain. There is also a function to show the current stage of a medicine, which can be used by client applications.
-- The smart contract also stores information about the various players in the supply chain, such as their name, address, and place of operation.
-- The `addRMS()`, `addManufacturer()`, `addDistributor()`, and `addRetailer()` functions can be used by the contract owner to add new players to the supply chain.
+This smart contract models various roles and stages involved in the supply chain of agricultural products:
 
-Overall, this smart contract provides a way to track the various stages of a pharmaceutical product in the supply chain, ensuring transparency and accountability.
+- **Raw Material Supplier**: Provides the raw materials required for production.
+- **Manufacturer**: Converts raw materials into finished products.
+- **Distributor**: Distributes the products to retailers.
+- **Retailer**: Sells the final products to customers.
+- **Customer**: The end consumer of the products.
+
+The contract owner deploys the contract and is responsible for authorizing various roles like retailer, manufacturer, etc. It stores information about the products, such as name, description, and current stage in the supply chain. Functions like `addRMS()`, `addManufacturer()`, `addDistributor()`, and `addRetailer()` are used by the contract owner to add new players to the supply chain, ensuring transparency and accountability.
+
+### Registration Process to Add in Blockchain
+
+![Registration Process](client/public/contractD.png)
+
+1. **Registration**: The raw material supplier, manufacturer, distributor, and retailer register on the blockchain.
+2. **Owner Verification**: The owner checks the addresses.
+    - **Valid Address**: Verified and registered.
+    - **Invalid Address**: Not registered.
+3. **Ledger**: Every transaction is recorded in the ledger, and any node can view the transaction.
 
 ## Setting up Local Development
 
