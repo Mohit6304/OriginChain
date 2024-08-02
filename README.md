@@ -39,7 +39,7 @@
 Origin Chain is a blockchain-based supply chain management system designed specifically for agricultural products, though it is adaptable to other types of supply chains. This system leverages smart contracts to ensure a transparent and secure transfer of products from the raw material supplier to the end customer. The use of blockchain technology reduces administrative overhead, increases transparency, and builds an efficient root of trust among all parties involved.
 
 ## Demo
-<video controls src="Origin Chain Demo.mp4" title="Origin Chain Demo"></video>
+https://github.com/user-attachments/assets/bdee9079-c81e-4346-b6fe-82a803012572
 
 ## Architecture
 
