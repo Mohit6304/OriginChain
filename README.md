@@ -26,7 +26,7 @@
   </a>
 </p>
 
-<h4 align="center">A Supply Chain Management System for Agricultural Products with <a href="https://docs.soliditylang.org/en/v0.8.4/" target="_blank">Solidity</a>.</h4>
+<h4 align="center">A Supply Chain Management System with <a href="https://docs.soliditylang.org/en/v0.8.4/" target="_blank">Solidity</a>.</h4>
 
 <p align="center">
   <a>
@@ -37,6 +37,9 @@
 ## Description
 
 Origin Chain is a blockchain-based supply chain management system designed specifically for agricultural products, though it is adaptable to other types of supply chains. This system leverages smart contracts to ensure a transparent and secure transfer of products from the raw material supplier to the end customer. The use of blockchain technology reduces administrative overhead, increases transparency, and builds an efficient root of trust among all parties involved.
+
+## Demo
+<video controls src="Origin Chain Demo.mp4" title="Origin Chain Demo"></video>
 
 ## Architecture
 
